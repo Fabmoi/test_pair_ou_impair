@@ -1,9 +1,9 @@
 
-def afficher_resultat(rnombre):
-    if (rnombre % 2) == 0:
-        print("Le nombre que vous avez choisi " + str(rnombre) + " est pair")
+def afficher_resultat(r_nombre):
+    if (r_nombre % 2) == 0:
+        print("Le nombre que vous avez choisi " + str(r_nombre) + " est pair")
     else:
-        print("Le nombre que vous avez choisi " + str(rnombre) + " est impair")
+        print("Le nombre que vous avez choisi " + str(r_nombre) + " est impair")
 
 
 def demander_nombre():
